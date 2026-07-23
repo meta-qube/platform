@@ -1,8 +1,13 @@
 # Payment provider adapters
 
-**Category:** Business  
-**Status:** Draft  
-**Last updated:** 2026-07-24  
+| Field | Value |
+|---|---|
+| Category | Business |
+| Status | Draft |
+| Last updated | 2026-07-24 |
+| Authors group | — |
+| Leader | — |
+| Advisers | — |
 
 ## Purpose
 

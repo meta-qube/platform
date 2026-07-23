@@ -1,13 +1,15 @@
 # RBAC and catalog rights
 
-**Category:** Identity, Security & access  
-**Status:** Draft  
-**Last updated:** 2026-07-23
-
 | Field | Value |
 |---|---|
-| `name` | RBAC and catalog rights |
-| `version` | 0.1.0-draft |
+| Category | Identity, Security & access |
+| Status | Draft |
+| Last updated | 2026-07-23 |
+| Authors group | — |
+| Leader | — |
+| Advisers | — |
+| Name | RBAC and catalog rights |
+| Version | 0.1.0-draft |
 
 ## Purpose
 

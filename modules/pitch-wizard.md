@@ -1,8 +1,13 @@
 # Pitch wizard
 
-**Category:** Compiler  
-**Status:** Draft  
-**Last updated:** 2026-07-24  
+| Field | Value |
+|---|---|
+| Category | Compiler |
+| Status | Draft |
+| Last updated | 2026-07-24 |
+| Authors group | — |
+| Leader | — |
+| Advisers | — |
 
 ## Purpose
 

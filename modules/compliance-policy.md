@@ -1,8 +1,13 @@
 # Compliance policy: GDPR, data residency
 
-**Category:** Identity, Security & access  
-**Status:** Draft  
-**Last updated:** 2026-07-23  
+| Field | Value |
+|---|---|
+| Category | Identity, Security & access |
+| Status | Draft |
+| Last updated | 2026-07-23 |
+| Authors group | — |
+| Leader | — |
+| Advisers | — |
 
 ## Purpose
 

@@ -1,8 +1,13 @@
 # Email: delivery, receiving, campaigns
 
-**Category:** Channels  
-**Status:** Draft  
-**Last updated:** 2026-07-24  
+| Field | Value |
+|---|---|
+| Category | Channels |
+| Status | Draft |
+| Last updated | 2026-07-24 |
+| Authors group | — |
+| Leader | — |
+| Advisers | — |
 
 ## Purpose
 

@@ -1,13 +1,15 @@
 # Secrets and credentials vault
 
-**Category:** Identity, Security & access  
-**Status:** Draft  
-**Last updated:** 2026-07-23
-
 | Field | Value |
 |---|---|
-| `name` | Secrets and credentials vault |
-| `version` | 0.1.0-draft |
+| Category | Identity, Security & access |
+| Status | Draft |
+| Last updated | 2026-07-23 |
+| Authors group | — |
+| Leader | — |
+| Advisers | — |
+| Name | Secrets and credentials vault |
+| Version | 0.1.0-draft |
 
 ## Purpose
 

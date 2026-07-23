@@ -1,8 +1,13 @@
 # Module registry
 
-**Category:** Catalog  
-**Status:** Draft  
-**Last updated:** 2026-07-24  
+| Field | Value |
+|---|---|
+| Category | Catalog |
+| Status | Draft |
+| Last updated | 2026-07-24 |
+| Authors group | — |
+| Leader | — |
+| Advisers | — |
 
 ## Purpose
 

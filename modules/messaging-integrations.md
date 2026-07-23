@@ -1,8 +1,13 @@
 # Messaging integrations: Telegram, etc.
 
-**Category:** Channels  
-**Status:** Draft  
-**Last updated:** 2026-07-24  
+| Field | Value |
+|---|---|
+| Category | Channels |
+| Status | Draft |
+| Last updated | 2026-07-24 |
+| Authors group | — |
+| Leader | — |
+| Advisers | — |
 
 ## Purpose
 

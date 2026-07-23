@@ -1,8 +1,13 @@
 # Protocol connectors: REST, GraphQL, gRPC
 
-**Category:** APIs & reliability  
-**Status:** Draft  
-**Last updated:** 2026-07-23  
+| Field | Value |
+|---|---|
+| Category | APIs & reliability |
+| Status | Draft |
+| Last updated | 2026-07-23 |
+| Authors group | — |
+| Leader | — |
+| Advisers | — |
 
 ## Purpose
 
