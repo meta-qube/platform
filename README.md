@@ -53,7 +53,7 @@ Infrastructure     → logging, scheduling, multithreading, sandbox
 
 A catalog of reusable **meta-modules** with declarative DSL-style configuration.
 
-Identity & access:
+Identity, Security & access:
 - Authentication: OAuth 2.0, OpenID, SSO
 - Passkeys and MFA / 2FA
 - Multilayer security policy
@@ -61,6 +61,7 @@ Identity & access:
 - RBAC and catalog rights
 - Secrets and credentials vault
 - Compliance policy: GDPR, data residency
+- Identity provider connectors
 
 Infrastructure:
 - Load balancer
@@ -68,21 +69,23 @@ Infrastructure:
 - Rate limiting
 - Service discovery
 
-Runtime primitives:
+Orchestration:
 - Workflow engine
 - Saga (long-running distributed transactions)
 - Scheduler
 - Task queue
 - Distributed locks
 - Event bus
-- Webhook dispatcher
+
+APIs & reliability:
 - Protocol connectors: REST, GraphQL, gRPC
+- Webhook dispatcher
 - Schemas (API and domain contracts)
 - Transactional outbox
 - Circuit breaker
 - Retry policies
 
-Data:
+Data & storage:
 - Distributed database: Globalstorage
   - Search and indexing
   - Full-text search
@@ -96,17 +99,21 @@ Observability:
 - Logging: access, security, and audit logs
 - Telemetry and monitoring
 - Error tracking
-- Metrics and analytics dashboard
 
-Communication & content:
+Channels:
 - Chat engine
 - Chatbots
 - Landing page
 - Feeds (news channel)
 - Email: delivery, receiving, campaigns
 - Messaging integrations: Telegram, etc.
-- Calendar
 - Notification hub: email, SMS, push, in-app
+- Calendar
+- Calendar sync connectors
+
+Surfaces:
+- Landing page
+- Feeds (news channel)
 - Brand and UI shells
 - Admin and founder portal
 
@@ -115,6 +122,11 @@ Business:
   - Types: one-time, subscriptions, usage-based
   - Features: retries, refunds, payouts, referrals
   - Tax / VAT, invoices, dunning, multi-currency
+- Payment provider adapters
+- Pricing and packaging
+- Accounting ledger and invoicing
+
+Customer operations:
 - Product and customer lifecycle
   - Customer onboarding
   - Subscription management
@@ -122,16 +134,14 @@ Business:
   - Feature requests and bug reports
 - CRM pipeline and sales flow
 - Support ticketing and SLA
-- Pricing and packaging
-- Legal drafts: ToS, privacy policy, contracts
-- Accounting ledger and invoicing
-- Report generation
 - Parental control
 
-Integrations:
-- Payment provider adapters
-- Identity provider connectors
-- Calendar sync connectors
+Legal & trust:
+- Legal drafts: ToS, privacy policy, contracts
+
+Analytics:
+- Metrics and analytics dashboard
+- Report generation
 
 AI & agents:
 - AI / LLM gateway
