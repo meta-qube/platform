@@ -54,31 +54,31 @@ Infrastructure     → logging, scheduling, multithreading, sandbox
 A catalog of reusable **meta-modules** with declarative DSL-style configuration.
 
 Identity & access:
-- Auth: OAuth 2.0, OpenID, SSO
-- Passkeys, MFA / 2FA
+- Authentication: OAuth 2.0, OpenID, SSO
+- Passkeys and MFA / 2FA
 - Multilayer security policy
 - Session management, session console
-- RBAC + catalog rights
+- RBAC and catalog rights
 - Secrets and credentials vault
-- Policy, compliance, GDPR
+- Compliance policy: GDPR, data residency
 
 Infrastructure:
 - Load balancer
-- CDN integration
+- CDN
 - Rate limiting
 - Service discovery
 
 Runtime primitives:
 - Workflow engine
-- Saga
+- Saga (long-running distributed transactions)
 - Scheduler
 - Task queue
 - Distributed locks
 - Event bus
 - Webhook dispatcher
 - Protocol connectors: REST, GraphQL, gRPC
-- Schemas
-- Outbox
+- Schemas (API and domain contracts)
+- Transactional outbox
 - Circuit breaker
 - Retry policies
 
@@ -86,14 +86,14 @@ Data:
 - Distributed database: Globalstorage
   - Search and indexing
   - Full-text search
-  - Continuous backup/restore
+  - Continuous backup and restore
   - Continuous migration
   - Continuous calculations
 - File and media storage
 - Media processing
 
 Observability:
-- Logging: access logs, security logs, audit logs
+- Logging: access, security, and audit logs
 - Telemetry and monitoring
 - Error tracking
 - Metrics and analytics dashboard
@@ -103,39 +103,39 @@ Communication & content:
 - Chatbots
 - Landing page
 - Feeds (news channel)
-- Email delivery, receiving, campaigns
-- External messaging integration: Telegram, etc.
+- Email: delivery, receiving, campaigns
+- Messaging integrations: Telegram, etc.
 - Calendar
 - Notification hub: email, SMS, push, in-app
-- Brand and UI application shells
-- Admin / founder portal
+- Brand and UI shells
+- Admin and founder portal
 
 Business:
 - Payments
   - Types: one-time, subscriptions, usage-based
   - Features: retries, refunds, payouts, referrals
   - Tax / VAT, invoices, dunning, multi-currency
-- Product and customer
+- Product and customer lifecycle
   - Customer onboarding
   - Subscription management
   - Feedback
   - Feature requests and bug reports
 - CRM pipeline and sales flow
-- Support / ticketing and SLA
+- Support ticketing and SLA
 - Pricing and packaging
-- Legal templates: ToS, privacy, contracts
-- Accounting and invoicing
+- Legal drafts: ToS, privacy policy, contracts
+- Accounting ledger and invoicing
 - Report generation
 - Parental control
 
 Integrations:
 - Payment provider adapters
 - Identity provider connectors
-- Calendar integration
+- Calendar sync connectors
 
 AI & agents:
-- AI integration
-- RAG and knowledge base
+- AI / LLM gateway
+- RAG knowledge base
 - Tool-calling agents
 - Security assistant
 
