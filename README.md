@@ -59,6 +59,8 @@ Identity & access:
 - Multilayer security policy
 - Session management, session console
 - RBAC + catalog rights
+- Secrets and credentials vault
+- Policy, compliance, GDPR
 
 Infrastructure:
 - Load balancer
@@ -76,6 +78,9 @@ Runtime primitives:
 - Webhook dispatcher
 - Protocol connectors: REST, GraphQL, gRPC
 - Schemas
+- Outbox
+- Circuit breaker
+- Retry policies
 
 Data:
 - Distributed database: Globalstorage
@@ -84,11 +89,14 @@ Data:
   - Continuous backup/restore
   - Continuous migration
   - Continuous calculations
+- File and media storage
+- Media processing
 
 Observability:
 - Logging: access logs, security logs, audit logs
 - Telemetry and monitoring
 - Error tracking
+- Metrics and analytics dashboard
 
 Communication & content:
 - Chat engine
@@ -98,30 +106,50 @@ Communication & content:
 - Email delivery, receiving, campaigns
 - External messaging integration: Telegram, etc.
 - Calendar
+- Notification hub: email, SMS, push, in-app
+- Brand and UI application shells
+- Admin / founder portal
 
 Business:
 - Payments
   - Types: one-time, subscriptions, usage-based
   - Features: retries, refunds, payouts, referrals
+  - Tax / VAT, invoices, dunning, multi-currency
 - Product and customer
   - Customer onboarding
   - Subscription management
   - Feedback
   - Feature requests and bug reports
+- CRM pipeline and sales flow
+- Support / ticketing and SLA
+- Pricing and packaging
+- Legal templates: ToS, privacy, contracts
+- Accounting and invoicing
 - Report generation
 - Parental control
 
+Integrations:
+- Payment provider adapters
+- Identity provider connectors
+- Calendar integration
+
 AI & agents:
 - AI integration
+- RAG and knowledge base
+- Tool-calling agents
 - Security assistant
 
 Compiler:
 - Startup wizard
 - Pitch wizard
+- Risk and verification reports
+- Validation and experiment plans
+- Compatibility rules and risk tags
 
 Catalog:
 - Module registry
 - Test runner
+- Deprecation and supersede
 
 Module lifecycle:
 
