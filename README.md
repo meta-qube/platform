@@ -53,16 +53,20 @@ Infrastructure     → logging, scheduling, multithreading, sandbox
 
 A catalog of reusable **meta-modules** with declarative DSL-style configuration.
 
+Identity & access:
 - Auth: OAuth 2.0, OpenID, SSO
 - Passkeys, MFA / 2FA
 - Multilayer security policy
 - Session management, session console
 - RBAC + catalog rights
-- Logging: access logs, security logs, audit logs
+
+Infrastructure:
 - Load balancer
 - CDN integration
 - Rate limiting
 - Service discovery
+
+Runtime primitives:
 - Workflow engine
 - Saga
 - Scheduler
@@ -71,21 +75,31 @@ A catalog of reusable **meta-modules** with declarative DSL-style configuration.
 - Event bus
 - Webhook dispatcher
 - Protocol connectors: REST, GraphQL, gRPC
+- Schemas
+
+Data:
 - Distributed database: Globalstorage
   - Search and indexing
   - Full-text search
   - Continuous backup/restore
   - Continuous migration
   - Continuous calculations
-- Schemas
+
+Observability:
+- Logging: access logs, security logs, audit logs
 - Telemetry and monitoring
 - Error tracking
+
+Communication & content:
 - Chat engine
 - Chatbots
 - Landing page
 - Feeds (news channel)
 - Email delivery, receiving, campaigns
 - External messaging integration: Telegram, etc.
+- Calendar
+
+Business:
 - Payments
   - Types: one-time, subscriptions, usage-based
   - Features: retries, refunds, payouts, referrals
@@ -95,14 +109,19 @@ A catalog of reusable **meta-modules** with declarative DSL-style configuration.
   - Feedback
   - Feature requests and bug reports
 - Report generation
+- Parental control
+
+AI & agents:
 - AI integration
 - Security assistant
-- Calendar
-- Test runner
-- Parental control
+
+Compiler:
 - Startup wizard
 - Pitch wizard
+
+Catalog:
 - Module registry
+- Test runner
 
 Module lifecycle:
 
