@@ -54,14 +54,14 @@ Infrastructure     → logging, scheduling, multithreading, sandbox
 A catalog of reusable **meta-modules** with declarative DSL-style configuration.
 
 Identity, Security & access:
-- Authentication: OAuth 2.0, OpenID, SSO
-- Passkeys and MFA / 2FA
-- Multilayer security policy
-- Session management, session console
-- RBAC and catalog rights
-- Secrets and credentials vault
-- Compliance policy: GDPR, data residency
-- Identity provider connectors
+- [Authentication: OAuth 2.0, OpenID, SSO](modules/authentication.md)
+- [Passkeys and MFA / 2FA](modules/passkeys-and-mfa.md)
+- [Multilayer security policy](modules/multilayer-security-policy.md)
+- [Session management, session console](modules/session-management.md)
+- [RBAC and catalog rights](modules/rbac-and-catalog-rights.md)
+- [Secrets and credentials vault](modules/secrets-and-credentials-vault.md)
+- [Compliance policy: GDPR, data residency](modules/compliance-policy.md)
+- [Identity provider connectors](modules/identity-provider-connectors.md)
 
 Infrastructure:
 - Load balancer
@@ -70,20 +70,20 @@ Infrastructure:
 - Service discovery
 
 Orchestration:
-- Workflow engine
-- Saga (long-running distributed transactions)
-- Scheduler
-- Task queue
-- Distributed locks
-- Event bus
+- [Workflow engine](modules/workflow-engine.md)
+- [Saga (long-running distributed transactions)](modules/saga.md)
+- [Scheduler](modules/scheduler.md)
+- [Task queue](modules/task-queue.md)
+- [Distributed locks](modules/distributed-locks.md)
+- [Event bus](modules/event-bus.md)
 
 APIs & reliability:
-- Protocol connectors: REST, GraphQL, gRPC
+- [Protocol connectors: REST, GraphQL, gRPC](modules/protocol-connectors.md)
 - Webhook dispatcher
 - Schemas (API and domain contracts)
-- Transactional outbox
-- Circuit breaker
-- Retry policies
+- [Transactional outbox](modules/transactional-outbox.md)
+- [Circuit breaker](modules/circuit-breaker.md)
+- [Retry policies](modules/retry-policies.md)
 
 Data & storage:
 - Distributed database: Globalstorage
@@ -92,24 +92,24 @@ Data & storage:
   - Continuous backup and restore
   - Continuous migration
   - Continuous calculations
-- File and media storage
-- Media processing
+- [File and media storage](modules/file-and-media-storage.md)
+- [Media processing](modules/media-processing.md)
 
 Observability:
-- Logging: access, security, and audit logs
-- Telemetry and monitoring
-- Error tracking
+- [Logging: access, security, and audit logs](modules/logging.md)
+- [Telemetry and monitoring](modules/telemetry-and-monitoring.md)
+- [Error tracking](modules/error-tracking.md)
 
 Channels:
 - Chat engine
 - Chatbots
 - Landing page
 - Feeds (news channel)
-- Email: delivery, receiving, campaigns
-- Messaging integrations: Telegram, etc.
-- Notification hub: email, SMS, push, in-app
-- Calendar
-- Calendar sync connectors
+- [Email: delivery, receiving, campaigns](modules/email.md)
+- [Messaging integrations: Telegram, etc.](modules/messaging-integrations.md)
+- [Notification hub: email, SMS, push, in-app](modules/notification-hub.md)
+- [Calendar](modules/calendar.md)
+- [Calendar sync connectors](modules/calendar-sync-connectors.md)
 
 Surfaces:
 - Landing page
@@ -118,13 +118,13 @@ Surfaces:
 - Admin and founder portal
 
 Business:
-- Payments
+- [Payments](modules/payments.md)
   - Types: one-time, subscriptions, usage-based
   - Features: retries, refunds, payouts, referrals
   - Tax / VAT, invoices, dunning, multi-currency
-- Payment provider adapters
-- Pricing and packaging
-- Accounting ledger and invoicing
+- [Payment provider adapters](modules/payment-provider-adapters.md)
+- [Pricing and packaging](modules/pricing-and-packaging.md)
+- [Accounting ledger and invoicing](modules/accounting-ledger-and-invoicing.md)
 
 Customer operations:
 - Product and customer lifecycle
@@ -150,16 +150,16 @@ AI & agents:
 - Security assistant
 
 Compiler:
-- Startup wizard
-- Pitch wizard
+- [Startup wizard](modules/startup-wizard.md)
+- [Pitch wizard](modules/pitch-wizard.md)
 - Risk and verification reports
 - Validation and experiment plans
 - Compatibility rules and risk tags
 
 Catalog:
-- Module registry
-- Test runner
-- Deprecation and supersede
+- [Module registry](modules/module-registry.md)
+- [Test runner](modules/test-runner.md)
+- [Deprecation and supersede](modules/deprecation-and-supersede.md)
 
 Module lifecycle:
 
