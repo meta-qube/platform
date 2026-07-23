@@ -1,13 +1,15 @@
 # Passkeys and MFA / 2FA
 
-**Category:** Identity, Security & access  
-**Status:** Draft  
-**Last updated:** 2026-07-23
-
 | Field | Value |
 |---|---|
-| `name` | Passkeys and MFA / 2FA |
-| `version` | 0.1.0-draft |
+| Category | Identity, Security & access |
+| Status | Draft |
+| Last updated | 2026-07-23 |
+| Authors group | — |
+| Leader | — |
+| Advisers | — |
+| Name | Passkeys and MFA / 2FA |
+| Version | 0.1.0-draft |
 
 ## Purpose
 

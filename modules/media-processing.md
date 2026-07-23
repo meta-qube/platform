@@ -1,8 +1,13 @@
 # Media processing
 
-**Category:** Data & storage  
-**Status:** Draft  
-**Last updated:** 2026-07-23  
+| Field | Value |
+|---|---|
+| Category | Data & storage |
+| Status | Draft |
+| Last updated | 2026-07-23 |
+| Authors group | — |
+| Leader | — |
+| Advisers | — |
 
 ## Purpose
 

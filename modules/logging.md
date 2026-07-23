@@ -1,8 +1,13 @@
 # Logging: access, security, and audit logs
 
-**Category:** Observability  
-**Status:** Draft  
-**Last updated:** 2026-07-23  
+| Field | Value |
+|---|---|
+| Category | Observability |
+| Status | Draft |
+| Last updated | 2026-07-23 |
+| Authors group | — |
+| Leader | — |
+| Advisers | — |
 
 ## Purpose
 
