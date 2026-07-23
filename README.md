@@ -55,9 +55,10 @@ A catalog of reusable **meta-modules** with declarative DSL-style configuration.
 
 - Auth: OAuth 2.0, OpenID, SSO
 - Passkeys, MFA / 2FA
-- Session management
-- RBAC
-- Logging: access and audit logs
+- Multilayer security policy
+- Session management, session console
+- RBAC + catalog rights
+- Logging: access logs, security logs, audit logs
 - Load balancer
 - CDN integration
 - Rate limiting
